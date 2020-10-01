@@ -13,19 +13,11 @@
      <link rel="icon" href="images/favicon.png">
      <style type="text/css">
         * { margin: 0; padding: 0; }
-	.btn {
-  		background-color: DodgerBlue;
-  		border: none;
-  		color: white;
-  		padding: 12px 30px;
-  		cursor: pointer;
-  		font-size: 20px;
-	}
         body { font: 16px Helvetica, Sans-Serif; line-height: 24px; background: url(images/noise.jpg); }
         .clear { clear: both; }
         #page-wrap { width: 900px; margin: 40px auto 60px; }
         #pic { float: right; margin: -30px 0 0 0; }
-	.row{ text-align: Left; background-color: #373a3c; color: #999; font-weight: bold;}
+	.row{ text-align: Center; background-color: #563d7c; color: #999; font-weight: normal;}
         h1 { margin: 0 0 16px 0; padding: 0 0 16px 0; font-size: 42px; font-weight: bold; letter-spacing: -2px; border-bottom: 1px solid #999; }
         h2 { font-size: 20px; margin: 0 0 6px 0; position: relative; }
         h2 span { position: absolute; bottom: 0; right: 0; font-style: italic; font-family: Georgia, Serif; font-size: 14px; color: #999; font-weight: normal; }
@@ -35,7 +27,7 @@
         ul { margin: 0 0 32px 17px; }
         #objective { width: 500px; float: left; }
         #objective p { font-family: Georgia, Serif; color: #666; font-size: 20px; text-align: justify; text-justify: inter-word; }
-        dt { font-style: italic; font-weight: bold; font-size: 18px; text-align: right; padding: 0 26px 0 0; width: 150px; float: left; height: 100px; border-right: 1px solid #999;  }
+        dt { font-style: italic; font-weight: bold; font-size: 22px; text-align: right; padding: 0 26px 0 0; width: 150px; float: left; height: 100px; border-right: 1px solid #999;  }
         dd { width: 600px; float: right; }
         dd.clear { float: none; margin: 0; height: 15px; }
 
@@ -46,7 +38,7 @@
 
     <div id="page-wrap">
     
-        <img src="images/sinaheidari.jpg" alt="Photo of me" id="pic" width="200" height="250" />
+        <img src="images/sinaheidari.jpg" class="rounded float-right" alt="Photo of me" id="pic" width="200" height="250" />
     
         <div id="contact-info" class="vcard">
         
@@ -58,6 +50,14 @@
                 Ph: <span class="tel">+98-919-241-1679</span><br />
                 Email: <a class="email" href="http://s1naheidari.github.io">sina.ray.h@gmail.com</a>
             </p>
+	<table>
+	<tr>						
+	<td><a href="https://github.com/s1naheidari" style="padding-right:15px;"><img src="images/github.png" style="width:35px;height:35px;" alt="github-logo"></a></td>
+	<td><a href="https://www.linkedin.com/in/sina-heidari-3a935412a" style="padding-right:15px;" target="_blank"><img src="images/linkedin.png" style="width:35px;height:35px;" alt="linkedIn-logo"></a></td>
+	<td><a href="https://www.kaggle.com/raycatcher" style="padding-right:15px;" target="_blank"><img src="images/kaggle.png" style="width:35px;height:35px;" alt="kaggle-logo"></a></td>
+	<td><a href="https://t.me/raycatcher" style="padding-right:15px;" target="_blank"><img src="images/telegram.png" style="width:35px;height:35px;" alt="tegelram-logo"></a></td>
+	</tr>
+	</table>
         </div>
                 
         <div id="objective">
@@ -141,7 +141,13 @@
         <div class="clear"></div>
     
     </div>
-
+    <div class="container">
+	<div class="row text-center">
+		<div>
+			<h6>This page was written and deployed by Raycatcher</h6>
+		</div>
+	</div>
+	</div>
 </body>
 
 </html>
