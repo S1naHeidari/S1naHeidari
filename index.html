@@ -5,18 +5,30 @@
 
 <head>
      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-
      <title>Sina Heidari-CV</title>
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
      <link rel="icon" href="images/favicon.png">
      <style type="text/css">
         * { margin: 0; padding: 0; }
+	.btn {
+  		background-color: DodgerBlue;
+  		border: none;
+  		color: white;
+  		padding: 12px 30px;
+  		cursor: pointer;
+  		font-size: 20px;
+	}
         body { font: 16px Helvetica, Sans-Serif; line-height: 24px; background: url(images/noise.jpg); }
         .clear { clear: both; }
-        #page-wrap { width: 800px; margin: 40px auto 60px; }
+        #page-wrap { width: 900px; margin: 40px auto 60px; }
         #pic { float: right; margin: -30px 0 0 0; }
+	.row{ text-align: Left; background-color: #373a3c; color: #999; font-weight: bold;}
         h1 { margin: 0 0 16px 0; padding: 0 0 16px 0; font-size: 42px; font-weight: bold; letter-spacing: -2px; border-bottom: 1px solid #999; }
         h2 { font-size: 20px; margin: 0 0 6px 0; position: relative; }
-        h2 span { position: absolute; bottom: 0; right: 0; font-style: italic; font-family: Georgia, Serif; font-size: 16px; color: #999; font-weight: normal; }
+        h2 span { position: absolute; bottom: 0; right: 0; font-style: italic; font-family: Georgia, Serif; font-size: 14px; color: #999; font-weight: normal; }
         p { margin: 0 0 16px 0; }
         a { color: #999; text-decoration: none; border-bottom: 1px dotted #999; }
         a:hover { border-bottom-style: solid; color: black; }
@@ -53,9 +65,8 @@
 	    Currently, I'm doing my undergraduate studies in Computer engineering Department at University of Kurdistan, with an expected graduation date of February 2021. My research interests include, but not limited to following areas; Machine Learning, Virtualization, Data Science and Distributed Systems. I have experience with Kubernetes and i'm open to DevOps internships and jobs. My main goal right now, is to apply for graduate schools.
             </p>
         </div>
-        
         <div class="clear"></div>
-        
+       <a class="btn btn-primary btn lg" href="files/resume.pdf" role="button">Download CV</a> 
         <dl>
             <dd class="clear"></dd>
             
@@ -94,34 +105,37 @@
             
             <dd class="clear"></dd>
             
-            <dt>Experience</dt>
+            <dt>Projects and Work Experience</dt>
             <dd>
-                <h2>Doomsday Cult <span>Leader/Overlord - Baton Rogue, LA - 1926-2010</span></h2>
+                <h2>R&D at HPC Center</h2>
+		<br><h2><span>Advisor: Dr. Sadoon Azizi - University of Kurdistan, Sanandaj - 2020-present</span></h2>
                 <ul>
-                    <li>Inspired and won highest peasant death competition among servants</li>
-                    <li>Helped coordinate managers to grow cult following</li>
-                    <li>Provided untimely deaths to all who opposed</li>
+                    <li>It all started from IoT course; my project was mainly about service placement. this caused my acquaintance with Kubernetes I set up a 4 nodes Kubernetes.</li>
+
+		    <li>I set up a 4 nodes Kubernetes on HPC center's "virtual machines". I learned to use Docker containerization platform, and build a private local registry for container images.  </li>
+                    <li>Currently, i work under Dr. Sadoon Azizi. Our goal is to study and enhance, certain parts of Kubernetes operating system.</li>
                 </ul>
                 
-                <h2>The Watering Hole <span>Bartender/Server - Milwaukee, WI - 2009</span></h2>
+                <h2>R&D at knowledge base company</h2>
+		<br><h2><span>Advisor: Dr. Parham Moradi - University of Kurdistan, Sanandaj - 2017-2018</span></h2>
+
                 <ul>
-                    <li>Worked on grass-roots promotional campaigns</li>
-                    <li>Reduced theft and property damage percentages</li>
-                    <li>Janitorial work, Laundry</li>
+                    <li>Working under Dr. Moradi was a big opportunity; i learned the basics of software development, and put most development methodologies into work.  </li>
+                    <li>As a Lab member, I Created a website for UoK data science lab. I used Laravel for back-end.</li>
+                    <li>I also participated in UoK guid application. I implemented indoor Wifi positioning system, by which you can know your location, inside buildings. </li>
                 </ul> 
             </dd>
             
             <dd class="clear"></dd>
             
             <dt>Hobbies</dt>
-            <dd>World Domination, Deep Sea Diving, Murder Most Foul</dd>
-            
-            <dd class="clear"></dd>
-            
-            <dt>References</dt>
-            <dd>Available on request</dd>
-            
-            <dd class="clear"></dd>
+            <dd>Only Free software!</dd>
+	    <dd>Computer science reductionist</dd>
+	    <dd>AGI and Quantum computing</dd>
+	    <dd>Arch Linux lover</dd>
+	    <dd>Neuroscience and Biology</dd>
+	    <dd>Extreme Metal and Electronic music enthusiast</dd>
+	    <dd>Mix martial arts and swimming</dd>
         </dl>
         
         <div class="clear"></div>
